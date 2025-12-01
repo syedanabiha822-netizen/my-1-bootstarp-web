@@ -1,0 +1,180 @@
+  body { font-family: "Poppins", sans-serif; }
+
+    /* NAVBAR */
+    .nav-link { font-size: 14px; font-weight: 500; color: #444; }
+    .login-btn {
+      background: #fa5757;
+      color: #fff;
+      font-size: 12px;
+      padding: 6px 16px;
+      border-radius: 5px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 100px 0 160px;
+      position: relative;
+      overflow: visible;
+    }
+
+    .hero-blue-bg {
+      position: absolute;
+      bottom: -120px;
+      right: 0;
+      width: 65%;
+      height: 330px;
+      background: #4c5fd5;
+      border-radius: 200px 0 0 200px;
+      z-index: -1;
+    }
+
+    .hero-img {
+      width: 500px;
+      position: absolute;
+      right: 8%;
+      top: 40px;
+    }
+
+    /* FEATURES TITLE */
+    .features-wrapper {
+      background: #f7f7f7;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    /* FEATURE 1 */
+    .feature-section {
+      padding: 150px 0;
+      position: relative;
+    }
+
+    .feature-blue {
+      position: absolute;
+      left: 0;
+      bottom: -150px;
+      width: 65%;
+      height: 400px;
+      background: #4c5fd5;
+      border-radius: 0 200px 200px 0;
+      z-index: -1;
+    }
+
+    .feature-img {
+      width: 420px;
+      margin-left: 26%;
+    }
+
+
+
+       .ext-card {
+            border-radius: 20px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            transition: 0.3s;
+        }
+        .ext-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .ext-icon {
+            width: 90px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        .install-btn {
+            background: #5664ff;
+            color: white;
+            border-radius: 10px;
+            padding: 10px 15px;
+            font-weight: 500;
+        }
+
+
+
+
+         .faq-section{
+            padding: 80px 0;
+            text-align: center;
+        }
+        .faq-title{
+            font-size: 30px;
+            font-weight: 60;
+            margin-bottom: 15px;
+        }
+        .faq-sub{
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .accordion-button::after {
+            filter: invert(38%) sepia(88%) saturate(2229%) hue-rotate(229deg) brightness(97%) contrast(101%);
+        }
+        .btn-custom{
+            background:#4c5bf9;
+            color:white;
+            padding:10px 30px;
+            border-radius:8px;
+            margin-top: 40px;
+        }
+        .btn-custom:hover{
+            background:#3a48d9;
+            color:white;
+        }
+
+
+
+
+
+          .newsletter-section {
+            background: #5368df;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .newsletter-section h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .newsletter-section input {
+            height: 55px;
+            border-radius: 8px;
+            padding-left: 20px;
+            border: none;
+        }
+        .newsletter-section button {
+            height: 55px;
+            border-radius: 8px;
+            background: #fa5757;
+            color: white;
+            font-weight: 500;
+            border: none;
+            padding: 0 30px;
+        }
+        .footer {
+            background: #252b46;
+            padding: 24px 42px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer .menu a {
+            color: white;
+            gap: 12px;
+            margin-right: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .footer .social i {
+            color: white;
+            font-size: 22px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .footer-logo {
+            display: flex;
+            align-items: center;
+        }
+     
