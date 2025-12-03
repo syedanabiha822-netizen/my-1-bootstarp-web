@@ -178,3 +178,158 @@
             align-items: center;
         }
      
+
+
+        /* ================================
+   RESPONSIVE TABLET (<= 992px)
+================================ */
+@media (max-width: 992px) {
+
+  /* HERO IMAGE */
+  .hero-img {
+    position: static;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .hero {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  .hero-blue-bg {
+    display: none;
+  }
+
+  /* FEATURE SECTION */
+  .feature-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feature-blue {
+    display: none;
+  }
+
+  .feature-section {
+    text-align: center;
+    padding: 80px 0 !important;
+  }
+
+  /* CARDS */
+  .ext-icon {
+    margin-left: 0;
+  }
+
+  /* FOOTER */
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+
+/* ================================
+   RESPONSIVE MOBILE (<= 768px)
+================================ */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-link {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero-img {
+    width: 90%;
+  }
+
+  /* FEATURES WRAPPER */
+  .features-wrapper {
+    padding: 60px 0;
+  }
+
+  /* FEATURE TEXT */
+  .feature-section {
+    padding: 60px 0 !important;
+  }
+
+  .feature-section .col-lg-6 {
+    text-align: center;
+  }
+
+  .feature-section button {
+    margin-top: 15px;
+  }
+
+  /* CARDS */
+  .ext-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .ext-icon {
+    width: 70px;
+  }
+
+  /* FAQ */
+  .faq-title {
+    font-size: 26px;
+  }
+
+  .faq-sub {
+    font-size: 14px;
+  }
+
+  /* NEWSLETTER */
+  .newsletter-section {
+    padding: 60px 20px;
+  }
+
+  .newsletter-section h1 {
+    font-size: 24px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer .menu a {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
+
+/* ================================
+   SMALL MOBILE (<= 480px)
+================================ */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-section input,
+  .newsletter-section button {
+    height: 50px;
+    font-size: 14px;
+  }
+
+}
